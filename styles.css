@@ -1,0 +1,311 @@
+body {
+	font-family: Cubano;
+	color: black;
+	font-size: 24px;
+	color: black;
+	text-align: center;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	
+	width: 500px; /*widths can be percentages of the screen or pixel values*/
+	/*if you're designing something for a phone, percentages would be better*/
+	border: 20px solid black;
+	/* you can change border radius to make it curvy */
+	/* could also put dashed instead of solid */
+}
+
+a {
+	color: purple;
+}
+
+p {
+	margin: 0;
+}
+
+.special /* start with a dot when you are identifying a class*/ {
+	margin: 0px;
+	width: 700px;
+	color: white;
+	text-align: center;
+}
+
+
+/*this is a comment*/
+
+
+.top-section {
+	background-image: url("wallpaper.jpg");
+	padding-bottom: 50px;
+}
+
+.headings {
+	width: 700px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
+
+.content {
+	width: 300px;
+	display: inline-block;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content p {
+	margin: 10px;
+}
+
+.nav li { /*outer class then inner element*/
+	display: inline-block;
+	padding-right: 50px;
+	padding-top: 10px;
+}
+
+.nav ul {
+	text-align: right;
+	margin: 0;
+}
+
+.nav {
+	background-color: lightblue;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+}
+
+.profile-pic img {
+	border-radius: 100%;
+	width: 575px;
+	margin: 0 auto; /*first value: top and bottom margin; second value: 
+	left and right (auto = make them equal);*/
+	margin-top: 60px;
+	position: relative;
+	left: 10px;
+}
+
+.profile-pic img:hover {
+	border: 15px solid lightblue;
+}
+
+.about-me {
+	height:500px;
+	background-color: lightblue;
+	text-align: center;
+}
+
+.about-title {
+	padding-top: 40px;
+}
+
+.about-image {
+	width: 50%;
+	display: inline-block;
+}
+
+.about-image img {
+	width: 500px;
+	border: 20px lightblue;
+}
+
+.about-body {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+@media only screen and (max-width: 1090px) {
+	.about-body {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 1090px) {
+	.
+}
+
+.mywork {
+	height:700px;
+	background-color: lightpink;
+	text-align: center;
+}
+
+.mywork-title {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 50px;
+}
+
+.mywork-image1 {
+	width: 30%;
+	display: inline-block;
+}
+
+.mywork-image2 {
+	width: 30%;
+	display: inline-block;
+}
+
+.mywork-image3 {
+	width: 30%;
+	display: inline-block;
+}
+
+.mywork-image1 img {
+	width: 50%;
+	height: 50%;
+	border: 0px;
+	display: inline-block;
+}
+
+.mywork-image2 img {
+	width: 50%;
+	height: 50%;
+	border: 0px;
+	display: inline-block;
+}
+
+.mywork-image3 img {
+	width: 50%;
+	height:50%;
+	border: 0px;
+	display: inline-block;
+}
+
+.radicalbody {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.UVAbody {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.wireframebody{
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.background {
+	width: 400px;
+	height: 300px;
+	background-color: green;
+	position: relative;
+}
+
+.headline {
+	width: 100px;
+	height: 100px;
+	background-color: rgba(0,47,108,0.9);
+	position: absolute;
+	bottom: 0;
+}
+
+.contactme {
+	height: 400px;
+	background-color: lightblue;
+	text-align: center;
+	color: black;
+
+}
+
+.contactme-title {
+	padding-top: 65px;
+	padding-bottom: 30px;
+	font-size: 40px;
+}
+
+.phonenumber img {
+	width: 45px;
+	border: 0px;
+	padding-right: 20px;
+}
+
+.email img {
+	width: 45px;
+	border: 0px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+}
+
+.homework{
+	height: 350px;
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.homework1, .homework2, .homework3{
+	width: 33.3333%;
+	display: inline-block;
+	height: 350px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.homework1{
+	background-image: url("homework1.jpg");
+}
+
+.homework2{
+	background-image: url("homework2.jpg");
+}
+
+.homework3{
+	background-image: url("homework3.jpg");
+}
+
+.homework1text, .homework2text, .homework3text{
+	font-family: Helvetica;
+	vertical-align: top;
+	position: absolute;
+	bottom: 0;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.homework1text a, .homework2text a, .homework3text a{
+	color: blue;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
